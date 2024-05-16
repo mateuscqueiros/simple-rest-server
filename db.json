@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "email": "user@email.com",
+      "password": "$2a$10$lwUSIdx/Z9DJagAPoCHtduxj9dWHueyLTGUruzXBdupXiLAtRkub2",
+      "id": 1
+    },
+    {
+      "email": "user2@email.com",
+      "password": "$2a$10$G17.l83YXlBoznnjGKwWaerv5aVNqVUJwQSce8bVYDlQZO47eXAg6",
+      "id": 2
+    },
+    {
+      "email": "mateus@email.com",
+      "password": "$2a$10$.iC6C4aVfwJ7TvQZ6Lc8TOBi4kIp6dSk.Zl2SIN6nq0BXdnYCQ6iG",
+      "id": 3
+    }
+  ],
+  "messages": [
+    {
+      "content": "Olá mundo",
+      "userId": 1
+    },
+    {
+      "content": "Olá mundo 2",
+      "userId": 2
+    }
+  ]
+}

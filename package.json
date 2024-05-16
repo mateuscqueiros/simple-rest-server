@@ -1,0 +1,18 @@
+{
+  "name": "simple-rest-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server-auth db.json -r routes.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "json-server": "0.17.4",
+    "json-server-auth": "^2.1.0"
+  }
+}
