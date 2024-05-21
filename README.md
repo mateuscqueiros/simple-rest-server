@@ -25,7 +25,7 @@ A tabela abaixo tem um referência das permissões como especificado em [Rotas p
 | 664 | Logged | Public |
 | 660 | Logged | Logged |
 | 644 | Owner | Public |
-| 640 | Owner | Public |
+| 640 | Owner | Logged |
 | 600 | Owner | Owner |
 | 444 | None | Public |
 | 440 | None | Logged |

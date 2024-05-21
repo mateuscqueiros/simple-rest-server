@@ -1,29 +1,93 @@
 {
-  "users": [
+  "users": [],
+  "transactions": [
     {
-      "email": "user@email.com",
-      "password": "$2a$10$lwUSIdx/Z9DJagAPoCHtduxj9dWHueyLTGUruzXBdupXiLAtRkub2",
-      "id": 1
+      "name": "Conserto do Carro",
+      "value": 200,
+      "date": "2023-01-06T03:00:00.000Z",
+      "categoryId": "0",
+      "paymentType": "pix",
+      "id": "f10e0e56-72aa-451c-916b-1a1ce2bfa350"
     },
     {
-      "email": "user2@email.com",
-      "password": "$2a$10$G17.l83YXlBoznnjGKwWaerv5aVNqVUJwQSce8bVYDlQZO47eXAg6",
-      "id": 2
+      "id": "6a36e692-2f39-48dd-9798-c73ac022f01d",
+      "name": "Roupas novas",
+      "date": "2024-01-02T03:00:00.000Z",
+      "value": 300,
+      "categoryId": "1",
+      "paymentType": "pix"
     },
     {
-      "email": "mateus@email.com",
-      "password": "$2a$10$.iC6C4aVfwJ7TvQZ6Lc8TOBi4kIp6dSk.Zl2SIN6nq0BXdnYCQ6iG",
-      "id": 3
+      "id": "9172c540-6365-4e92-8537-5ab9a7709c17",
+      "name": "Guloseimas",
+      "date": "2024-05-20T19:13:54.377Z",
+      "value": 50,
+      "categoryId": "2",
+      "paymentType": "pix"
+    },
+    {
+      "id": "c031aacc-7729-49a6-9a94-d2f171a41373",
+      "name": "Limpeza do carro",
+      "date": "2024-05-20T19:13:54.377Z",
+      "value": 150,
+      "categoryId": "0",
+      "paymentType": "pix"
+    },
+    {
+      "id": "d648dad9-bb48-49dd-97f7-baec23a2db68",
+      "name": "Camisas",
+      "date": "2024-05-20T19:13:54.377Z",
+      "value": 200,
+      "categoryId": "2",
+      "paymentType": "pix"
+    },
+    {
+      "id": "e0d045e6-4f57-47ff-8c15-3c741b28baf1",
+      "name": "Mercado",
+      "date": "2024-05-20T19:13:54.377Z",
+      "value": 230,
+      "categoryId": "3",
+      "paymentType": "pix"
+    },
+    {
+      "name": "Novo",
+      "value": 123,
+      "date": "2024-05-01T02:00:08.000Z",
+      "categoryId": "b5fb8e97-5095-48d9-9b6a-74504010e1b8",
+      "paymentType": "credit-card",
+      "id": "4"
     }
   ],
-  "messages": [
+  "categories": [
     {
-      "content": "Olá mundo",
-      "userId": 1
+      "id": "0",
+      "icon": "icon-vehicles",
+      "name": "Carro",
+      "color": "rose"
     },
     {
-      "content": "Olá mundo 2",
-      "userId": 2
+      "id": "1",
+      "icon": "icon-shirt",
+      "name": "Roupas",
+      "color": "sky"
+    },
+    {
+      "id": "2",
+      "icon": "icon-kitchen",
+      "name": "Comida",
+      "color": "emerald"
+    },
+    {
+      "id": "3",
+      "icon": "icon-shopping-cart",
+      "name": "Mercado",
+      "color": "amber"
+    },
+    {
+      "id": "b5fb8e97-5095-48d9-9b6a-74504010e1b8",
+      "name": "Nova categoria",
+      "color": "yellow",
+      "icon": "icon-job"
     }
   ]
 }
