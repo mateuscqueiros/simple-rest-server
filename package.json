@@ -5,14 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server-auth db.json -r routes.json --port 3001"
+    "start": "nodemon server.js",
+    "dev": "json-server-auth db.json -r routes.json --port 3001"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dot-env": "^0.0.1",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "json-server": "0.17.4",
-    "json-server-auth": "^2.1.0"
+    "json-server-auth": "^2.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.0"
   }
 }
