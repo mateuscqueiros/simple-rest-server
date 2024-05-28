@@ -1,13 +1,26 @@
 {
-  "users": [],
+  "users": [
+    {
+      "email": "user@email.com",
+      "password": "$2a$10$bNAXGPL/Xs3Wu7CXb8p.UeKB///KIAjcuMdkAlXeDlM09K/1e6eIe",
+      "name": "Mateus Queirós",
+      "id": 1
+    },
+    {
+      "email": "user2@email.com",
+      "password": "$2a$10$nllq8sykwuYBsEwtFXxlpeg95ygCisMMOCzEO2yczbtUCz/OE9CwW",
+      "name": "Mateus Queirós",
+      "id": 2
+    }
+  ],
   "transactions": [
     {
+      "id": "f10e0e56-72aa-451c-916b-1a1ce2bfa350",
       "name": "Conserto do Carro",
       "value": 200,
       "date": "2023-01-06T03:00:00.000Z",
       "categoryId": "0",
-      "paymentType": "pix",
-      "id": "f10e0e56-72aa-451c-916b-1a1ce2bfa350"
+      "paymentType": "pix"
     },
     {
       "id": "6a36e692-2f39-48dd-9798-c73ac022f01d",
@@ -48,14 +61,6 @@
       "value": 230,
       "categoryId": "3",
       "paymentType": "pix"
-    },
-    {
-      "name": "Novo",
-      "value": 123,
-      "date": "2024-05-01T02:00:08.000Z",
-      "categoryId": "b5fb8e97-5095-48d9-9b6a-74504010e1b8",
-      "paymentType": "credit-card",
-      "id": "4"
     }
   ],
   "categories": [
@@ -82,12 +87,6 @@
       "icon": "icon-shopping-cart",
       "name": "Mercado",
       "color": "amber"
-    },
-    {
-      "id": "b5fb8e97-5095-48d9-9b6a-74504010e1b8",
-      "name": "Nova categoria",
-      "color": "yellow",
-      "icon": "icon-job"
     }
   ]
 }
