@@ -1,25 +1,26 @@
-const express = require("express");
-const jsonServer = require("json-server");
-const dotenv = require("dotenv");
-const auth = require("json-server-auth");
-const jwt = require("jsonwebtoken");
-const cors = require("cors");
+var express = require("express");
+var jsonServer = require("json-server");
+var dotenv = require("dotenv");
+var auth = require("json-server-auth");
+var jwt = require("jsonwebtoken");
+var cors = require("cors");
 
-const server = express();
-dotenv.config({ path: "./.env" });
-const router = jsonServer.router("db.json");
+var server = express();
 
 server.use(cors());
 
+dotenv.config({ path: "./.env" });
+var router = jsonServer.router("db.json");
+
 server.get("/users/me", auth, (req, res) => {
-  const authorization = req.header("Authorization");
+  var authorization = req.header("Authorization");
 
   if (!authorization) {
     res.statusCode = 401;
     return res.json("User not authenticated");
   }
 
-  const token = authorization.replace("Bearer ", "");
+  var token = authorization.replace("Bearer ", "");
   let data;
 
   try {
@@ -30,9 +31,9 @@ server.get("/users/me", auth, (req, res) => {
   }
 
   try {
-    const { db } = req.app;
+    var { db } = req.app;
     let user = db.get("users").find({ email: data.email }).value();
-    const { password, ...rest } = user;
+    var { password, ...rest } = user;
     res.json(rest);
   } catch (error) {
     console.log(error.message);
@@ -41,7 +42,7 @@ server.get("/users/me", auth, (req, res) => {
   }
 });
 
-const rules = auth.rewriter({
+var rules = auth.rewriter({
   users: 600,
   transactions: 640,
 });
@@ -52,7 +53,7 @@ server.use(rules);
 server.use(auth);
 server.use(router);
 
-const port = process.env.PORT;
+var port = process.env.PORT;
 
 server.listen(port, () => {
   console.log("Server running on port", port);

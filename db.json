@@ -5,82 +5,67 @@
       "password": "$2a$10$bNAXGPL/Xs3Wu7CXb8p.UeKB///KIAjcuMdkAlXeDlM09K/1e6eIe",
       "name": "Mateus Queirós",
       "id": 1
-    },
-    {
-      "email": "user2@email.com",
-      "password": "$2a$10$nllq8sykwuYBsEwtFXxlpeg95ygCisMMOCzEO2yczbtUCz/OE9CwW",
-      "name": "Mateus Queirós",
-      "id": 2
     }
   ],
   "transactions": [
     {
-      "id": "f10e0e56-72aa-451c-916b-1a1ce2bfa350",
-      "name": "Conserto do Carro",
+      "name": "Transação 1",
+      "value": 1234,
+      "date": "2024-05-01T14:43:40.000Z",
+      "categoryId": "3",
+      "paymentType": "pix",
+      "userId": 1,
+      "id": "0da4e19f-1189-4aa4-80b8-3246e0bda5c6"
+    },
+    {
+      "id": "f10e0e56-72aa-451c-916b-1a1ce2bfa3",
+      "name": "Transação 2",
       "value": 200,
       "date": "2023-01-06T03:00:00.000Z",
       "categoryId": "0",
-      "paymentType": "pix"
+      "paymentType": "pix",
+      "userId": 1
     },
     {
-      "id": "6a36e692-2f39-48dd-9798-c73ac022f01d",
-      "name": "Roupas novas",
-      "date": "2024-01-02T03:00:00.000Z",
-      "value": 300,
-      "categoryId": "1",
-      "paymentType": "pix"
-    },
-    {
-      "id": "9172c540-6365-4e92-8537-5ab9a7709c17",
-      "name": "Guloseimas",
-      "date": "2024-05-20T19:13:54.377Z",
-      "value": 50,
-      "categoryId": "2",
-      "paymentType": "pix"
-    },
-    {
-      "id": "c031aacc-7729-49a6-9a94-d2f171a41373",
-      "name": "Limpeza do carro",
-      "date": "2024-05-20T19:13:54.377Z",
-      "value": 150,
+      "id": "fd22450c-9941-4974-abe6-8882b736a540",
+      "name": "Transação 3",
+      "value": 123,
+      "date": "2024-05-31T23:43:40.481Z",
       "categoryId": "0",
-      "paymentType": "pix"
+      "paymentType": "pix",
+      "userId": 1
     },
     {
-      "id": "d648dad9-bb48-49dd-97f7-baec23a2db68",
-      "name": "Camisas",
-      "date": "2024-05-20T19:13:54.377Z",
-      "value": 200,
-      "categoryId": "2",
-      "paymentType": "pix"
+      "id": "307b834a-0d3e-4097-96cd-0e949e227703",
+      "name": "Transação 4",
+      "value": 123,
+      "date": "2024-06-03T22:34:55.929Z",
+      "categoryId": "0",
+      "paymentType": "pix",
+      "userId": 1
     },
     {
-      "id": "e0d045e6-4f57-47ff-8c15-3c741b28baf1",
-      "name": "Mercado",
-      "date": "2024-05-20T19:13:54.377Z",
-      "value": 230,
+      "id": "06c75b13-26cf-4e6c-8375-f213beac8a33",
+      "name": "Transação 5",
+      "value": 123,
+      "date": "2024-06-03T22:50:05.065Z",
       "categoryId": "3",
-      "paymentType": "pix"
+      "paymentType": "pix",
+      "userId": 1
     }
   ],
   "categories": [
     {
-      "id": "0",
+      "name": "Carros",
+      "color": "teal",
       "icon": "icon-vehicles",
-      "name": "Carro",
-      "color": "rose"
+      "id": "0"
     },
     {
       "id": "1",
       "icon": "icon-shirt",
       "name": "Roupas",
       "color": "sky"
-    },
-    {
-      "id": "2",
-      "icon": "icon-kitchen",
-      "name": "Comida",
-      "color": "emerald"
     },
     {
       "id": "3",
