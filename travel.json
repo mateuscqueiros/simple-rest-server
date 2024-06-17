@@ -1,0 +1,163 @@
+{
+  "users": [
+    {
+      "email": "user@email.com",
+      "password": "$2a$10$bNAXGPL/Xs3Wu7CXb8p.UeKB///KIAjcuMdkAlXeDlM09K/1e6eIe",
+      "name": "Mateus Queirós",
+      "id": 1
+    }
+  ],
+  "destinations": [
+    {
+      "id": 0,
+      "title": "Osaka Castle",
+      "duration": "12 Days",
+      "distance": "400 KM",
+      "weather": "20 C",
+      "price": 1200,
+      "shortDescription": "Osaka Castle is a Japanese castle in Chūō-ku, Osaka, Japan. The castle is one of Japan's most famous landmarks.",
+      "longDescription": "Osaka Castle is a Japanese castle in Chūō-ku, Osaka, Japan. The castle is one of Japan's most famous landmarks and it played a major role in the unification of Japan during the sixteenth century of the Azuchi-Momoyama period.",
+      "image": "../assets/images/hotel.png"
+    },
+    {
+      "id": 1,
+      "title": "Island Itsukushima Shrine",
+      "duration": "7 Days",
+      "distance": "450 KM",
+      "weather": "30 C",
+      "price": 3000,
+      "shortDescription": "The Itsukushima shrine is one of Japan's most popular tourist attractions.",
+      "longDescription": "Itsukushima Shrine is a Shinto shrine on the island of Itsukushima, best known for its 'floating' torii gate. It is in the city of Hatsukaichi in Hiroshima Prefecture in Japan, accessible from the mainland by ferry at Miyajimaguchi Station.",
+      "image": "../assets/images/island.png"
+    },
+    {
+      "id": 2,
+      "title": "Babusar Top",
+      "duration": "5 Days",
+      "distance": "299 KM",
+      "weather": "14 C",
+      "price": 1000,
+      "shortDescription": "Babusar Top is a mountain pass in Pakistan at the north of the 150 km long in beautiful Kaghan Valley",
+      "longDescription": "Babusar Pass or Babusar Top is a mountain pass in Pakistan at the north of the 150 km long Kaghan Valley, connecting it via the Thak Nala with Chilas on the Karakoram Highway. It is the highest point in Kaghan Valley that can be easily accessed by cars.",
+      "image": "../assets/images/camp.png"
+    },
+    {
+      "id": 3,
+      "title": "Todaiji Temple",
+      "duration": "20 Days",
+      "distance": "604 KM",
+      "weather": "34 C",
+      "price": 400,
+      "shortDescription": "Todaiji is one of Japan's most famous and significant temples and a landmark of Nara.",
+      "longDescription": "Tōdai-ji is a Buddhist temple complex that was once one of the powerful Seven Great Temples, located in the city of Nara, Japan. Though it was originally founded in the year 738 CE, Tōdai-ji was not opened until the year 752 CE.",
+      "image": "../assets/images/forest.png"
+    },
+    {
+      "id": 4,
+      "title": "Todaiji Temple",
+      "duration": "20 Days",
+      "distance": "604 KM",
+      "weather": "34 C",
+      "price": 400,
+      "shortDescription": "Todaiji is one of Japan's most famous and significant temples and a landmark of Nara.",
+      "longDescription": "Tōdai-ji is a Buddhist temple complex that was once one of the powerful Seven Great Temples, located in the city of Nara, Japan. Though it was originally founded in the year 738 CE, Tōdai-ji was not opened until the year 752 CE.",
+      "image": "../assets/images/forest.png"
+    },
+    {
+      "id": 5,
+      "title": "Todaiji Temple",
+      "duration": "20 Days",
+      "distance": "604 KM",
+      "weather": "34 C",
+      "price": 400,
+      "shortDescription": "Todaiji is one of Japan's most famous and significant temples and a landmark of Nara.",
+      "longDescription": "Tōdai-ji is a Buddhist temple complex that was once one of the powerful Seven Great Temples, located in the city of Nara, Japan. Though it was originally founded in the year 738 CE, Tōdai-ji was not opened until the year 752 CE.",
+      "image": "../assets/images/forest.png"
+    },
+    {
+      "id": 6,
+      "title": "Todaiji Temple",
+      "duration": "20 Days",
+      "distance": "604 KM",
+      "weather": "34 C",
+      "price": 400,
+      "shortDescription": "Todaiji is one of Japan's most famous and significant temples and a landmark of Nara.",
+      "longDescription": "Tōdai-ji is a Buddhist temple complex that was once one of the powerful Seven Great Temples, located in the city of Nara, Japan. Though it was originally founded in the year 738 CE, Tōdai-ji was not opened until the year 752 CE.",
+      "image": "../assets/images/forest.png"
+    },
+    {
+      "id": 7,
+      "title": "Todaiji Temple",
+      "duration": "20 Days",
+      "distance": "604 KM",
+      "weather": "34 C",
+      "price": 400,
+      "shortDescription": "Todaiji is one of Japan's most famous and significant temples and a landmark of Nara.",
+      "longDescription": "Tōdai-ji is a Buddhist temple complex that was once one of the powerful Seven Great Temples, located in the city of Nara, Japan. Though it was originally founded in the year 738 CE, Tōdai-ji was not opened until the year 752 CE.",
+      "image": "../assets/images/forest.png"
+    },
+    {
+      "id": 8,
+      "title": "Todaiji Temple",
+      "duration": "20 Days",
+      "distance": "604 KM",
+      "weather": "34 C",
+      "price": 400,
+      "shortDescription": "Todaiji is one of Japan's most famous and significant temples and a landmark of Nara.",
+      "longDescription": "Tōdai-ji is a Buddhist temple complex that was once one of the powerful Seven Great Temples, located in the city of Nara, Japan. Though it was originally founded in the year 738 CE, Tōdai-ji was not opened until the year 752 CE.",
+      "image": "../assets/images/forest.png"
+    },
+    {
+      "id": 9,
+      "title": "Todaiji Temple",
+      "duration": "20 Days",
+      "distance": "604 KM",
+      "weather": "34 C",
+      "price": 400,
+      "shortDescription": "Todaiji is one of Japan's most famous and significant temples and a landmark of Nara.",
+      "longDescription": "Tōdai-ji is a Buddhist temple complex that was once one of the powerful Seven Great Temples, located in the city of Nara, Japan. Though it was originally founded in the year 738 CE, Tōdai-ji was not opened until the year 752 CE.",
+      "image": "../assets/images/forest.png"
+    },
+    {
+      "id": 10,
+      "title": "Todaiji Temple",
+      "duration": "20 Days",
+      "distance": "604 KM",
+      "weather": "34 C",
+      "price": 400,
+      "shortDescription": "Todaiji is one of Japan's most famous and significant temples and a landmark of Nara.",
+      "longDescription": "Tōdai-ji is a Buddhist temple complex that was once one of the powerful Seven Great Temples, located in the city of Nara, Japan. Though it was originally founded in the year 738 CE, Tōdai-ji was not opened until the year 752 CE.",
+      "image": "../assets/images/forest.png"
+    }
+  ],
+  "categories": [
+    {
+      "title": "Ocean",
+      "image": "../assets/images/ocean.png"
+    },
+    {
+      "title": "Mountain",
+      "image": "../assets/images/mountain.png"
+    },
+    {
+      "title": "Camp",
+      "image": "../assets/images/camp.png"
+    },
+    {
+      "title": "Sunset",
+      "image": "../assets/images/sunset.png"
+    },
+    {
+      "title": "Hiking",
+      "image": "../assets/images/hiking.png"
+    },
+    {
+      "title": "Beach",
+      "image": "../assets/images/beach.png"
+    },
+    {
+      "title": "Forest",
+      "image": "../assets/images/forest.png"
+    }
+  ]
+}

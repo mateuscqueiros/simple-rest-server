@@ -5,6 +5,30 @@
       "password": "$2a$10$bNAXGPL/Xs3Wu7CXb8p.UeKB///KIAjcuMdkAlXeDlM09K/1e6eIe",
       "name": "Mateus Queirós",
       "id": 1
+    },
+    {
+      "email": "mateuscqueiros@email.com",
+      "password": "$2a$10$fIMMiFvshtE1ZcNB8jH62edJfP82BvGyAz.HFITP6lVPNsy5W48Ou",
+      "name": "Mateus Queirós",
+      "id": 2
+    },
+    {
+      "email": "mateuscqueiros@gmail.com",
+      "password": "$2a$10$x6YO6aR1UERS2saP/b9bJ.WbnREn1RYd2TgkdM1tsHL6w7qwQxMVm",
+      "name": "Mateus Queirós",
+      "id": 3
+    },
+    {
+      "email": "user2@gmail.com",
+      "password": "$2a$10$tS3I4cIkZBGrWl3hcMECFu..U2yzWNF1iUde0lhFnWBfd080BVJku",
+      "name": "Mateus Queirós",
+      "id": 4
+    },
+    {
+      "email": "user3@gmail.com",
+      "password": "$2a$10$X34oNLPpZh0ytWbxsJKmNuuJM0G.LGUaayvvLbebPZnNZfJ/yAzqG",
+      "name": "Mateus Queirós",
+      "id": 5
     }
   ],
   "transactions": [
