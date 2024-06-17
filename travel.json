@@ -1,12 +1,4 @@
 {
-  "users": [
-    {
-      "email": "user@email.com",
-      "password": "$2a$10$bNAXGPL/Xs3Wu7CXb8p.UeKB///KIAjcuMdkAlXeDlM09K/1e6eIe",
-      "name": "Mateus Queirós",
-      "id": 1
-    }
-  ],
   "destinations": [
     {
       "id": 0,
