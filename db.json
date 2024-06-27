@@ -9,20 +9,40 @@
       "price": 1200,
       "shortDescription": "O Ōsaka-jō é um castelo situado em Chūō-ku, o distrito mais central de Osaka, no Japão.",
       "longDescription": "O Ōsaka-jō é um castelo situado em Chūō-ku, o distrito mais central de Osaka, no Japão. Originariamente denominado como Ozakajo, é um dos castelos mais famosos do país, tendo desempenhado um importante papel nas lutas de unificação durante o Período Azuchi-Momoyama, no século XVI.",
-      "image": "../assets/images/hotel.png",
-      "categoryId": 3
+      "imageId": 0,
+      "categoryId": 3,
+      "isFavorite": false,
+      "categories": [
+        2,
+        3,
+        4
+      ],
+      "tags": [
+        1,
+        3
+      ]
     },
     {
       "id": 1,
-      "title": "Island Itsukushima Shrine",
+      "title": "Templo da Ilha de Tsukishima",
       "duration": "7 Dias",
       "distance": "450 KM",
       "weather": "30 C",
       "price": 3000,
       "shortDescription": "O Santuário de Itsukushima é um santuário situado na ilha de Itsukushima",
       "longDescription": "A ilha de Itsukushima é uma das muitas ilhas do Mar Interior e é onde se localiza o monte mais elevado da região, o Monte Misen (530m). Devido ao costume xintoísta de adoração de montanhas o local foi considerado sagrado - e como tal vedado à presença humana, desde tempos remotos. Assim, o Santuário foi construído sobre a água, junto à ilha, que é hoje considerada parque natural.",
-      "image": "../assets/images/island.png",
-      "categoryId": 0
+      "imageId": 1,
+      "categoryId": 0,
+      "isFavorite": true,
+      "categories": [
+        2,
+        5,
+        7
+      ],
+      "tags": [
+        3,
+        4
+      ]
     },
     {
       "id": 2,
@@ -33,8 +53,18 @@
       "price": 1000,
       "shortDescription": "Babusar Tops é um passo de montanha localizado no Paquistão, conhecido por suas vistas deslumbrantes e altitudes impressionantes.",
       "longDescription": "Babusar Tops é um passo de montanha situado na província de Khyber Pakhtunkhwa, no Paquistão. Localizado a uma altitude aproximada de 4.173 metros acima do nível do mar, Babusar Tops é uma rota importante que conecta as regiões de Gilgit-Baltistan e Kaghan Valley. A paisagem ao redor é espetacular, com picos nevados, vales verdejantes e lagos cristalinos que capturam a imaginação dos visitantes.",
-      "image": "../assets/images/camp.png",
-      "categoryId": 2
+      "imageId": 2,
+      "categoryId": 2,
+      "isFavorite": false,
+      "categories": [
+        5,
+        6,
+        7
+      ],
+      "tags": [
+        2,
+        3
+      ]
     },
     {
       "id": 3,
@@ -45,8 +75,18 @@
       "price": 400,
       "shortDescription": "O Templo de Todaiji é um dos mais importantes e grandes templos budistas no Japão, localizado na cidade de Nara.",
       "longDescription": "O Templo de Todaiji, localizado na cidade de Nara, no Japão, é um dos mais impressionantes e significativos templos budistas do país. Construído no século VIII durante o período Nara, o templo é conhecido principalmente pelo seu Daibutsuden (Grande Salão do Buda), que é a maior estrutura de madeira do mundo e abriga uma monumental estátua de Buda Vairocana, conhecido como Daibutsu. Esta estátua de bronze, com cerca de 15 metros de altura, é uma das maiores do mundo e atrai visitantes de todo o mundo pela sua imponência e beleza.",
-      "image": "../assets/images/forest.png",
-      "categoryId": 2
+      "imageId": 3,
+      "categoryId": 2,
+      "isFavorite": false,
+      "categories": [
+        4,
+        6,
+        7
+      ],
+      "tags": [
+        1,
+        3
+      ]
     },
     {
       "id": 4,
@@ -57,8 +97,18 @@
       "price": 400,
       "shortDescription": "O Templo de Todaiji é um dos mais importantes e grandes templos budistas no Japão, localizado na cidade de Nara.",
       "longDescription": "O Templo de Todaiji, localizado na cidade de Nara, no Japão, é um dos mais impressionantes e significativos templos budistas do país. Construído no século VIII durante o período Nara, o templo é conhecido principalmente pelo seu Daibutsuden (Grande Salão do Buda), que é a maior estrutura de madeira do mundo e abriga uma monumental estátua de Buda Vairocana, conhecido como Daibutsu. Esta estátua de bronze, com cerca de 15 metros de altura, é uma das maiores do mundo e atrai visitantes de todo o mundo pela sua imponência e beleza.",
-      "image": "../assets/images/forest.png",
-      "categoryId": 2
+      "imageId": 1,
+      "categoryId": 2,
+      "isFavorite": false,
+      "categories": [
+        3,
+        5,
+        7
+      ],
+      "tags": [
+        2,
+        3
+      ]
     },
     {
       "id": 5,
@@ -69,8 +119,18 @@
       "price": 400,
       "shortDescription": "O Templo de Todaiji é um dos mais importantes e grandes templos budistas no Japão, localizado na cidade de Nara.",
       "longDescription": "O Templo de Todaiji, localizado na cidade de Nara, no Japão, é um dos mais impressionantes e significativos templos budistas do país. Construído no século VIII durante o período Nara, o templo é conhecido principalmente pelo seu Daibutsuden (Grande Salão do Buda), que é a maior estrutura de madeira do mundo e abriga uma monumental estátua de Buda Vairocana, conhecido como Daibutsu. Esta estátua de bronze, com cerca de 15 metros de altura, é uma das maiores do mundo e atrai visitantes de todo o mundo pela sua imponência e beleza.",
-      "image": "../assets/images/forest.png",
-      "categoryId": 2
+      "imageId": 1,
+      "categoryId": 2,
+      "isFavorite": false,
+      "categories": [
+        3,
+        4,
+        5
+      ],
+      "tags": [
+        1,
+        3
+      ]
     },
     {
       "id": 6,
@@ -81,8 +141,18 @@
       "price": 400,
       "shortDescription": "O Templo de Todaiji é um dos mais importantes e grandes templos budistas no Japão, localizado na cidade de Nara.",
       "longDescription": "O Templo de Todaiji, localizado na cidade de Nara, no Japão, é um dos mais impressionantes e significativos templos budistas do país. Construído no século VIII durante o período Nara, o templo é conhecido principalmente pelo seu Daibutsuden (Grande Salão do Buda), que é a maior estrutura de madeira do mundo e abriga uma monumental estátua de Buda Vairocana, conhecido como Daibutsu. Esta estátua de bronze, com cerca de 15 metros de altura, é uma das maiores do mundo e atrai visitantes de todo o mundo pela sua imponência e beleza.",
-      "image": "../assets/images/forest.png",
-      "categoryId": 2
+      "imageId": 1,
+      "categoryId": 2,
+      "isFavorite": false,
+      "categories": [
+        2,
+        6,
+        7
+      ],
+      "tags": [
+        1,
+        3
+      ]
     },
     {
       "id": 7,
@@ -93,8 +163,18 @@
       "price": 400,
       "shortDescription": "O Templo de Todaiji é um dos mais importantes e grandes templos budistas no Japão, localizado na cidade de Nara.",
       "longDescription": "O Templo de Todaiji, localizado na cidade de Nara, no Japão, é um dos mais impressionantes e significativos templos budistas do país. Construído no século VIII durante o período Nara, o templo é conhecido principalmente pelo seu Daibutsuden (Grande Salão do Buda), que é a maior estrutura de madeira do mundo e abriga uma monumental estátua de Buda Vairocana, conhecido como Daibutsu. Esta estátua de bronze, com cerca de 15 metros de altura, é uma das maiores do mundo e atrai visitantes de todo o mundo pela sua imponência e beleza.",
-      "image": "../assets/images/forest.png",
-      "categoryId": 2
+      "imageId": 1,
+      "categoryId": 2,
+      "isFavorite": false,
+      "categories": [
+        4,
+        7,
+        8
+      ],
+      "tags": [
+        2,
+        3
+      ]
     },
     {
       "id": 8,
@@ -105,8 +185,18 @@
       "price": 400,
       "shortDescription": "O Templo de Todaiji é um dos mais importantes e grandes templos budistas no Japão, localizado na cidade de Nara.",
       "longDescription": "O Templo de Todaiji, localizado na cidade de Nara, no Japão, é um dos mais impressionantes e significativos templos budistas do país. Construído no século VIII durante o período Nara, o templo é conhecido principalmente pelo seu Daibutsuden (Grande Salão do Buda), que é a maior estrutura de madeira do mundo e abriga uma monumental estátua de Buda Vairocana, conhecido como Daibutsu. Esta estátua de bronze, com cerca de 15 metros de altura, é uma das maiores do mundo e atrai visitantes de todo o mundo pela sua imponência e beleza.",
-      "image": "../assets/images/forest.png",
-      "categoryId": 2
+      "imageId": 1,
+      "categoryId": 2,
+      "isFavorite": false,
+      "categories": [
+        6,
+        7,
+        8
+      ],
+      "tags": [
+        2,
+        3
+      ]
     },
     {
       "id": 9,
@@ -117,45 +207,48 @@
       "price": 400,
       "shortDescription": "O Templo de Todaiji é um dos mais importantes e grandes templos budistas no Japão, localizado na cidade de Nara.",
       "longDescription": "O Templo de Todaiji, localizado na cidade de Nara, no Japão, é um dos mais impressionantes e significativos templos budistas do país. Construído no século VIII durante o período Nara, o templo é conhecido principalmente pelo seu Daibutsuden (Grande Salão do Buda), que é a maior estrutura de madeira do mundo e abriga uma monumental estátua de Buda Vairocana, conhecido como Daibutsu. Esta estátua de bronze, com cerca de 15 metros de altura, é uma das maiores do mundo e atrai visitantes de todo o mundo pela sua imponência e beleza.",
-      "image": "../assets/images/forest.png",
-      "categoryId": 2
+      "imageId": 1,
+      "categoryId": 2,
+      "isFavorite": false,
+      "categories": [
+        2,
+        4,
+        5
+      ],
+      "tags": [
+        1,
+        2
+      ]
     }
   ],
   "categories": [
     {
-      "id": 0,
       "title": "Oceano",
-      "image": "../assets/images/ocean.png"
+      "imageId": 4
     },
     {
-      "id": 1,
       "title": "Montanhas",
-      "image": "../assets/images/mountain.png"
+      "imageId": 8
     },
     {
-      "id": 2,
       "title": "Campo",
-      "image": "../assets/images/camp.png"
+      "imageId": 2
     },
     {
-      "id": 3,
       "title": "Pôr do sol",
-      "image": "../assets/images/sunset.png"
+      "imageId": 5
     },
     {
-      "id": 4,
       "title": "Caminhadas",
-      "image": "../assets/images/hiking.png"
+      "imageId": 6
     },
     {
-      "id": 5,
       "title": "Praia",
-      "image": "../assets/images/beach.png"
+      "imageId": 7
     },
     {
-      "id": 6,
       "title": "Floresta",
-      "image": "../assets/images/forest.png"
+      "imageId": 3
     }
   ]
 }
